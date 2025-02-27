@@ -1,6 +1,6 @@
-baseURL = "https://danysk.github.io/slides-2024-acsos-reproducibility"
+baseURL = "https://danysk.github.io/slides-2025-fair"
 languageCode = "en-us"
-title = "Reproducible experiments or didn't happen"
+title = "Open Science Corner 2025"
 disableKinds = ["sitemap", "RSS"]
 theme = "reveal-hugo"
 publishDir = "build"

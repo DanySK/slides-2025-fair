@@ -10,7 +10,7 @@ aliases = [
 
 +++
 
-# PhD forum talk @ ACSOS 2024
+# Costruzione di software per la ricerca ed esperimenti in-silico riproducibili: buone pratiche
 
 #### {{% today %}}
 ## [Danilo Pianini](mailto:danilo.pianini@unibo.it)
@@ -39,19 +39,23 @@ source: https://www.earth.com/news/hippopotamus-population-hit-hard-by-habitat-d
 
 ---
 
-I'm now making a claim, and I want to see if you believe me
+Let's play "science or fiction"
 
-{{% fragment %}}
 # An adult hippo's bite can crush in half an adult crocodile
 
-Please *raise your hand if you believe this claim*
-{{% /fragment %}}
+{{% wooclap id="67bf587983bca1e34a7e37b4" %}}
 
-{{% fragment %}}
+---
+
+{{% wooclap id="67c04a1eb1c547d82e6b75fd" height="1000" %}}
+
+---
+
 ![crocodile](crocodile80.jpg)
 
-Please raise your hand if you believe this claim *now*
-{{% /fragment %}}
+---
+
+{{% wooclap id="67c04a45099d357cb3fae084" height="1000" %}}
 
 ---
 
@@ -59,26 +63,28 @@ Please raise your hand if you believe this claim *now*
 
 ---
 
-Let's do the same game
+Again, science or fiction?
 
-{{% fragment %}}
 # Humans can tame and ride hippos
 
-Please *raise your hand if you believe this claim*
-{{% /fragment %}}
+---
 
-{{% fragment %}}
+{{% wooclap id="67c04a0eb1c547d82e6b6259" height="1000" %}}
+
+---
+
 ![riding](riding60.jpg)
 
-Please raise your hand if you believe this claim *now*
-{{% /fragment %}}
+---
+
+{{% wooclap id="67c04a48658844317b46a4bc" height="1000" %}}
+
+---
+
+## Would it be more convincing if I precisely explained *how* the hippo was tamed and ridden?
 
 {{% fragment %}}
-Would it be more convincing if I precisely explained how the hippo was tamed and ridden?
-{{% /fragment %}}
-
-{{% fragment %}}
-Would it be more convincing if multiple independent people applied the same procedure and obtained the same result?
+## Would it be more convincing if multiple independent people applied the same procedure and obtained the *same result*?
 {{% /fragment %}}
 
 ---
@@ -139,7 +145,7 @@ Would it be more convincing if multiple independent people applied the same proc
 
 ---
 
-# Version Control Systems
+# _fa**IR**_: Version Control Systems
 
 1. Keeps track of changes
 2. Fosters collaboration
@@ -171,7 +177,7 @@ Would it be more convincing if multiple independent people applied the same proc
 
 ---
 
-# Public code repositories
+# _**FA**ir_: Public code repositories
 
 1. The place where others will search for your code
     * Especially if it is a **tool** or a **library**
@@ -203,7 +209,7 @@ Would it be more convincing if multiple independent people applied the same proc
 
 ---
 
-# Build automation
+# _fai**R**_: Build automation
 
 1. Automatic fetch and download of software dependencies
 2. Automatic compilation and packaging
@@ -239,7 +245,7 @@ Example: https://github.com/angelacorte/vmc-experiments
 
 ---
 
-# Control randomness
+# _fai**R**_: Control randomness
 
 1. Obtain the same *exact* results when running the same experiment
 2. When building a tool or library, make sure that the same input produces the same output
@@ -265,7 +271,7 @@ provide a *companion experiment* (smaller in size) that can be executed determin
 
 ---
 
-# Isolation and self-containment via containers
+# _fa**IR**_: Isolation and self-containment via containers
 
 1. It runs on your machine? Ship your machine!
 2. Easy to share lightweight virtual machines (NOTE: they are not VMs)
@@ -293,7 +299,7 @@ Example: https://github.com/nicolasfara/experiments-2024-ACSOS-imageonomics-dron
 
 ---
 
-# Continuous integration and continuous delivery
+# _fai**R**_: Continuous integration and continuous delivery
 
 1. For each change, automatically run a verification process
 2. Easy to share lightweight virtual machines (NOTE: they are not VMs)
@@ -322,7 +328,7 @@ Example: https://github.com/nicolasfara/experiments-2024-acsos-multi-tier-field-
 
 ---
 
-# Pick a license
+# _f**A**ir_: Pick a license
 
 1. Unlicensed software is [proprietary](https://choosealicense.com/no-permission/)
     * the copyright exsists even if you don't write it, unless you *explicitly renounce* to part of it
@@ -356,7 +362,7 @@ Example: https://github.com/nicolasfara/experiments-2024-acsos-multi-tier-field-
 
 ---
 
-# Archival copies and digital object identifiers
+# _**FA**i**R**_: Archival copies and digital object identifiers
 
 1. Don't let your software disappear
 2. Let other reference specific versions of your software through a DOI
@@ -384,7 +390,7 @@ Example: https://github.com/anitvam/dsrt-2024-jakta-alchemist $\Rightarrow$ [![D
 
 ---
 
-# Document your work
+# _f**AI**r_: Document your work
 
 1. Help other people understand your work
 2. Help other people build on your work
